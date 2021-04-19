@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red"
+    tools:context=".DashBoard" >
+
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20px"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/red"
+        android:layout_marginBottom="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/vacant"
+            android:layout_width="10dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Vacant"
+            android:textColor="#fefefe" />
+
+        <Button
+            android:id="@+id/occupied"
+            android:layout_width="10dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/red"
+            android:text="Occupied"
+            android:textColor="#fefefe" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

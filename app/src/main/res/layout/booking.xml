@@ -1,0 +1,216 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefefe"
+    tools:context=".Register" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:editable="false"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/service"
+            android:drawableLeft="@drawable/service"
+            android:ems="10"
+            android:hint=" Service Name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:editable="false"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/name"
+            android:drawableLeft="@drawable/name"
+            android:ems="10"
+            android:hint=" Washboy Name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/time"
+            android:drawableLeft="@drawable/time"
+            android:ems="10"
+            android:hint=" Time"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/calendar"
+            android:drawableLeft="@drawable/calendar"
+            android:ems="10"
+            android:hint=" Date"
+            android:padding="10dp"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/about"
+            android:drawableLeft="@drawable/about"
+            android:ems="10"
+            android:hint=" About"
+            android:padding="10dp"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/money"
+            android:drawableLeft="@drawable/money"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/editText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bluebtns"
+            android:drawableStart="@drawable/money"
+            android:drawableLeft="@drawable/money"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#4D585B"
+            android:textColorLink="#000000"
+            android:visibility="invisible" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/book1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_buttons2"
+                android:text="Book"
+                android:textColor="#fefefe" />
+        </LinearLayout>
+
+        <!--<Button-->
+        <!--android:id="@+id/cancel"-->
+        <!--android:layout_width="190dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/editText4"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="-100dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:background="@drawable/rounded_buttons2"-->
+        <!--android:text="Cancel"-->
+        <!--android:textColor="#fefefe"-->
+        <!--android:textColorHint="#fefefe"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/book1"-->
+        <!--android:layout_width="190dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/editText4"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginLeft="210dp"-->
+        <!--android:layout_marginTop="-48dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@drawable/rounded_buttons2"-->
+        <!--android:text="Book"-->
+        <!--android:textColor="#fefefe"-->
+        <!--android:textColorHint="#fefefe"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+
+    </LinearLayout>
+
+</ScrollView>

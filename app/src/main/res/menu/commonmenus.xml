@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/maps"
+        android:checkable="false"
+        android:title="Maps"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/name"
+        android:checkable="false"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/favorites"
+        android:checkable="false"
+        android:title="My Favorites"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/details"
+        android:checkable="false"
+        android:title="My Details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/vehicle"
+        android:checkable="false"
+        android:title="My Vehicle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:checkable="false"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+
+
+
+</menu>
